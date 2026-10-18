@@ -1,0 +1,54 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ka-g0" x1="38.8001" y1="33.0086" x2="25.6404" y2="23.5806" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9EF7FF" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#79D4FF" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="ka-g1" x1="22.4984" y1="23.9939" x2="29.0903" y2="0.580508" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8CBAFF" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#C0A0FF" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="ka-g2" x1="19.0224" y1="23.7554" x2="41.1093" y2="8.99934" gradientUnits="userSpaceOnUse">
+      <stop stop-color="white" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#93B7FF" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="ka-g3" x1="1.80421e-06" y1="41.6" x2="37.6158" y2="-3.12" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2389FF"/>
+      <stop offset="0.511533" stop-color="#2389FF"/>
+      <stop offset="1" stop-color="#2389FF"/>
+    </linearGradient>
+    <radialGradient id="ka-g4" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(19.24 16.8981) scale(19.4762)">
+      <stop stop-color="#117DFB"/>
+      <stop offset="0.759254" stop-color="#449BFF"/>
+      <stop offset="1" stop-color="#77B6FF"/>
+    </radialGradient>
+  </defs>
+  <!-- v0: cyan sheen, rotated -0.73deg about its box center -->
+  <g transform="translate(26.2656 25.9656) rotate(-0.73) translate(-20.5682 -20.7999)">
+    <path d="M20.5682 0C31.9277 0 41.1364 9.31244 41.1364 20.7999C41.1364 32.2874 31.9277 41.5999 20.5682 41.5999C9.20871 41.5999 0 32.2874 0 20.7999C0 9.31244 9.20871 0 20.5682 0Z" fill="url(#ka-g0)"/>
+  </g>
+  <!-- v1: violet sheen -->
+  <g transform="translate(3.4896 1.392)">
+    <path d="M21.255 0C32.9938 0 42.51 9.64714 42.51 21.5475C42.51 33.4479 32.9938 43.095 21.255 43.095C9.51619 43.095 0 33.4479 0 21.5475C0 9.64714 9.51619 0 21.255 0Z" fill="url(#ka-g1)"/>
+  </g>
+  <!-- v2: white-blue sheen, rotated 172.44deg about its box center -->
+  <g transform="translate(23.772 25.0152) rotate(172.44) translate(-22.1649 -21.2874)">
+    <path d="M22.1649 0C34.4063 0 44.3299 9.5307 44.3299 21.2874C44.3299 33.0442 34.4063 42.5749 22.1649 42.5749C9.92359 42.5749 0 33.0442 0 21.2874C0 9.5307 9.92359 0 22.1649 0Z" fill="url(#ka-g2)"/>
+  </g>
+  <!-- v3: flat base sphere -->
+  <g transform="translate(5.3088 5.0928)">
+    <path d="M19.24 0C29.866 0 38.48 8.61405 38.48 19.24C38.48 29.866 29.866 38.48 19.24 38.48C8.61405 38.48 0 29.866 0 19.24C0 8.61405 8.61405 0 19.24 0Z" fill="url(#ka-g3)"/>
+  </g>
+  <!-- v4: radial sphere -->
+  <g transform="translate(5.3088 5.0928)">
+    <path d="M19.24 0C29.866 0 38.48 8.61405 38.48 19.24C38.48 29.866 29.866 38.48 19.24 38.48C8.61405 38.48 0 29.866 0 19.24C0 8.61405 8.61405 0 19.24 0Z" fill="url(#ka-g4)"/>
+  </g>
+  <!-- v5: left eye, rotated -7.82deg -->
+  <g transform="translate(24.8952 18.5064) rotate(-7.82) translate(-2.43444 -4.51751)" style="mix-blend-mode:luminosity">
+    <path d="M0 2.45395C0 1.09867 1.08993 0 2.43444 0C3.77894 0 4.86887 1.09867 4.86887 2.45395V6.58106C4.86887 7.93633 3.77894 9.03501 2.43444 9.03501C1.08993 9.03501 0 7.93633 0 6.58106V2.45395Z" fill="white"/>
+  </g>
+  <!-- v6: right eye, rotated -7.82deg -->
+  <g transform="translate(34.7616 17.1528) rotate(-7.82) translate(-2.191 -4.29165)" style="mix-blend-mode:luminosity">
+    <path d="M0 2.33126C0 1.04374 0.980941 0 2.191 0C3.40106 0 4.382 1.04374 4.382 2.33126V6.25202C4.382 7.53955 3.40106 8.58329 2.191 8.58329C0.980941 8.58329 0 7.53955 0 6.25202V2.33126Z" fill="white"/>
+  </g>
+</svg>

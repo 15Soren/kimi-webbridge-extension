@@ -1,0 +1,10 @@
+{
+  "description": {
+    "message": "Kimi Browser Extension — for AI agents. AI can open pages, click, fill forms, extract info, and automate web tasks.",
+    "description": "Extension description shown in Chrome Web Store and extension management page."
+  },
+  "actionTitle": {
+    "message": "Open Kimi",
+    "description": "Toolbar icon tooltip."
+  }
+}

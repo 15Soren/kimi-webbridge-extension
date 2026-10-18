@@ -1,0 +1,8 @@
+{
+  "description": {
+    "message": "Kimi 浏览器扩展 — 专为 AI Agent 设计的浏览器插件，让 AI 帮你打开网页、点击按钮、填写表单、提取信息，自动化各种繁琐的网页操作。"
+  },
+  "actionTitle": {
+    "message": "打开 Kimi"
+  }
+}

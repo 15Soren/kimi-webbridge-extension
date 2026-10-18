@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["chunks/lib-DsX7FI5K.js","chunks/chunk-vqPEJQhX.js"])))=>i.map(i=>d[i]);
+import{o as e}from"./chunk-vqPEJQhX.js";import{t}from"./preload-helper-BQFdpyiu.js";import{i as n}from"./sidepanel-CUbsl7eV.js";async function r(r){let{value:i}=await(await t(()=>import(`./lib-DsX7FI5K.js`).then(t=>e(t.default,1)),__vite__mapDeps([0,1]))).extractRawText({arrayBuffer:await r.arrayBuffer()}),a=i.trim();if(a.length<1)throw new n(r.name);return a}export{r as extractDocx};

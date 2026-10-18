@@ -1,0 +1,4 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["chunks/pdf-D28fd1ry.js","chunks/preload-helper-BQFdpyiu.js"])))=>i.map(i=>d[i]);
+import{t as e}from"./preload-helper-BQFdpyiu.js";import{i as t,n,r,t as i}from"./sidepanel-CUbsl7eV.js";var a=`/assets/pdf.worker.min-CrMmvqMo.mjs`;async function o(o){let s=await e(()=>import(`./pdf-D28fd1ry.js`),__vite__mapDeps([0,1]));s.GlobalWorkerOptions.workerSrc=a;let c;try{c=await s.getDocument({data:new Uint8Array(await o.arrayBuffer())}).promise}catch(e){throw e&&typeof e==`object`&&e.name===`PasswordException`?new i(o.name):e}let l=[],u=0,d=0;for(let e=1;e<=c.numPages;e++){let t=(await(await c.getPage(e)).getTextContent()).items.map(e=>`str`in e?e.str:``).join(` `);d+=t.trim().length;let i=`--- Page ${e} ---\n${t}`;if(u+=i.length+(l.length>0?2:0),l.push(i),u>2e5)throw new n(o.name,u,r,`chars`,!0)}if(d<10)throw new t(o.name);return l.join(`
+
+`).trim()}export{o as extractPdf};
