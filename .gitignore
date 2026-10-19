@@ -12,3 +12,6 @@ Desktop.ini
 # Keep it next to the repo so `git apply` can be re-verified, but do not
 # commit the duplicate tree.
 v2.0.*/
+
+# Release artifacts are attached to GitHub releases, not tracked in git.
+dist/
