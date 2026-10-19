@@ -7,3 +7,8 @@ Desktop.ini
 .vscode/
 .idea/
 *.swp
+
+# Local copy of the pristine upstream build used as the patch baseline.
+# Keep it next to the repo so `git apply` can be re-verified, but do not
+# commit the duplicate tree.
+v2.0.*/
